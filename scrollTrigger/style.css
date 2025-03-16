@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+    font-family: sans-serif;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+#page1, #page2, #page3 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#page1 {
+    background-color: lightblue;
+}
+#page2 {
+    background-color: #6dc4df;
+}
+#page3 {
+    background-color: #69d2f4;
+}
+#box {
+    width: 300px;
+    height: 300px;
+    background-color: crimson;
+}
+
+h1 {
+    color: black;
+    font-size: 68px;
+    font-weight: 800;
+}

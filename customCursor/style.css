@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+body {
+
+}
+#main {
+    width: 100%;
+    height: 100%;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+#cursor {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 100%;
+    position: fixed;
+    z-index: 9;
+    font-size: 5px;
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: 600;
+    line-height: 1;
+}
+#main #image {
+    width: 800px;
+    height: 400px;
+    position: relative;
+}
+
+#main #image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#main #image #overlay {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: 10;
+}
